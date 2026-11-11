@@ -1,30 +1,58 @@
-**Outils PokéIsland - version 2.4.30**
+**Outils PokéIsland - version 2.7.13** (nouveautés depuis la 2.4.30)
 
-Tous mes petits mods sont regroupés dans un seul fichier.
+**Hub Outils (nouveau)**
+- Toutes les options au même endroit : Échap > Options > Outils PokéIsland, touche **9 du pavé numérique** ou **/outils**
+- Onglets : Modules, Tri du PC, Boîtes, Recyclage, Apparence, Équipe & combat, HUD & couleurs, Commandes
+- Chaque option s'active ou se coupe tout de suite, sans relancer le jeu
 
-**Toujours actif**
-- Nouveau look du /pc : stats IV / EV / Plus (amitié, satiété, Dynamax)
-- Tri du /pc : boîtes custom, skins, option « Boîtes Extras » et « Ranger par » (Aucun, Pokédex, Région, Type + niveau, Région + type)
-- Réglages du /pc dans un panneau à droite du PC, avec une barre de recherche
-- Recyclage : icônes, IV / EV, objet tenu, clic pour bloquer un Pokémon, et garde automatique à partir de X IV à 31
-- Anti-relâcher : détails du Pokémon sous le PC, et 2e confirmation pour les légendaires, fabuleux, Ultra-Chimères, paradoxes, shiny ou 4 IV à 31 et plus
-- Pokédex manquants et recherche dans le /pc
-- Barre d'équipe en bas de l'écran (photos, niveaux, œufs), avec une option pour changer de Pokémon avec les flèches gauche / droite
-- Aperçu des /pv
-- **/stratall** : fenêtre d'analyse de ton équipe (faiblesses partagées, couverture, note sur 10), conseils par Pokémon (objet, attaques, IV, EV, nature) et remplaçants proposés, dans ton PC ou à attraper
-- Gestion HUD (touche 0 du pavé numérique) : déplacer chaque HUD, l'agrandir ou le réduire avec la poignée en haut à droite, et remettre les positions par défaut
-- Touche 3 du pavé numérique : cacher / afficher mes HUD (ceux du jeu et du serveur restent visibles)
+**Personnalisation des HUD**
+- Couleur d'accent pour tous les HUD, ou une couleur différente par HUD (équipe, Légendaires, Quêtes du Pass)
+- Style des cadres Moderne ou Rétro, et opacité du fond réglable
 
-**Modules à activer vous-mêmes** Menu : Échap > Options > Outils PokéIsland
-- Quêtes du Pass : les quêtes du jour du /pass à l'écran, qui disparaissent au fur et à mesure et se réduisent quand tout est fini
-- Légendaires : HUD des légendaires selon le biome où vous êtes
-- Tri des coffres : boutons de tri dans les coffres et les /pv
+**/pc**
+- Le /pc d'Outils peut se désactiver (hub > Modules). Désactivé = /pc d'origine de Cobblemon
+- Style « Rétro » en plus du style Moderne
+- Fonds des boîtes en décors pixel art : forêt, plage, grotte, montagne, volcan, nuit, désert, prairie
+- Éditeur « Décors des boîtes » : sélectionne une, plusieurs ou toutes les boîtes et applique un décor d'un clic. Clic droit sur le nom d'une boîte pour la changer seule
+- Boutons du PC toujours en colonne à gauche. Mode clair retiré : tout est en sombre
 
-Tout est désactivé par défaut. **Plus besoin de redémarrer le jeu** : les modules s'activent et se désactivent tout de suite.
+**Combat et Pokémon sauvages**
+- Icône PC (le vrai PC 3D du jeu) si tu n'as pas l'espèce dans ton PC, icône Pokédex si elle n'est pas capturée. Les deux s'affichent si c'est les deux
+- En combat : en colonne à droite de la tuile adverse. Hors combat : juste après le nom du Pokémon sauvage
+- Chaque icône se règle dans le hub (Équipe & combat)
 
-**Volume des alertes** Dans le même menu, vous pouvez régler le volume des alertes sonores (Légendaires et Quêtes du Pass) avec des curseurs, à 50 % par défaut.
+**Équipe personnalisée**
+- Pokémon animés (option)
+- Équipe en ligne ou en colonne, nom au-dessus / en dessous ou à gauche / à droite
+- Les Pokémon ajoutés par le serveur (ex. Lucareon) s'affichent maintenant
+
+**HUD des Légendaires**
+- Nouveau format : titre, biome (défile s'il est long), chrono, puis la liste complète avec les %
+- La hauteur s'adapte au nombre de Pokémon
+
+**/checklist (nouveau)**
+- Kits (/kitall) et arènes du jour, avec le temps restant
+- Tout se coche tout seul : kit récupéré, arène gagnée
+- Seules les arènes de ton niveau s'affichent, les autres indiquent « débloquée au niveau X »
+- Message dans le chat quand une arène ou les kits sont à refaire (réglable dans le hub)
+- Tape une fois `/checklist niveau <ton niveau>` pour qu'il connaisse ton niveau dresseur
+
+**/stratall**
+- Fenêtre d'analyse de l'équipe : faiblesses, couverture, note sur 10
+- Conseils par Pokémon : objet, attaques, IV à monter (IV entraînés compris), EV et nature
+- Remplaçants proposés, dans ton PC ou à attraper, avec ce qu'il faut changer sur eux
+- Onglets **Smogon** et **Coup Critique** (sets en double, sinon en simple)
+
+**GTS**
+- En parcourant le /gts, le mod note les prix des annonces
+- `/gts sell item` et `/gts sell pokemon <n>` : bulle avec le prix médian. Tab écrit le prix
+- Au survol dans le GTS : prix médian et « bonne affaire / trop cher »
+- Ce sont les prix des annonces vues, pas des ventes conclues
+
+**Anti-relâcher**
+- Zone de détails sous le PC (types, nature, IV, objet)
+- 2e confirmation pour les légendaires, fabuleux, Ultra-Chimères, paradoxes, shiny et Pokémon à 4 IV parfaits ou plus
 
 **Installation**
-- Supprimez l'ancien fichier Outils (et les anciens Pêche, Quêtes, Légendaires, Gestion HUD si vous les avez encore)
-- Un seul fichier à garder : Outils-PokeIsland-By-NopziTV-2.4.30.jar
-- Téléchargement : https://github.com/NopziTV/Listes-Mods-PokeIsland-By-NopziTV
+- Supprimez l'ancien fichier Outils
+- Un seul fichier à garder : Outils-PokeIsland-By-NopziTV-2.7.13.jar
