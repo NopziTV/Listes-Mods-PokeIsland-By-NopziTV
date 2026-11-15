@@ -1,58 +1,27 @@
-**Outils PokéIsland - version 2.7.13** (nouveautés depuis la 2.4.30)
+**Outils PokeIsland - nouveautés depuis la 2.7.13**
 
-**Hub Outils (nouveau)**
-- Toutes les options au même endroit : Échap > Options > Outils PokéIsland, touche **9 du pavé numérique** ou **/outils**
-- Onglets : Modules, Tri du PC, Boîtes, Recyclage, Apparence, Équipe & combat, HUD & couleurs, Commandes
-- Chaque option s'active ou se coupe tout de suite, sans relancer le jeu
-
-**Personnalisation des HUD**
-- Couleur d'accent pour tous les HUD, ou une couleur différente par HUD (équipe, Légendaires, Quêtes du Pass)
-- Style des cadres Moderne ou Rétro, et opacité du fond réglable
+**Hub /outils**
+- Nouvel onglet **Modules /pc** : tout ce qui concerne le /pc est regroupé au même endroit (interrupteur, tri, boîtes, recyclage, apparence).
+- **Couleurs des HUD par élément** : contours, titres, barres et % se règlent séparément, pour tous les HUD ou pour un seul.
 
 **/pc**
-- Le /pc d'Outils peut se désactiver (hub > Modules). Désactivé = /pc d'origine de Cobblemon
-- Style « Rétro » en plus du style Moderne
-- Fonds des boîtes en décors pixel art : forêt, plage, grotte, montagne, volcan, nuit, désert, prairie
-- Éditeur « Décors des boîtes » : sélectionne une, plusieurs ou toutes les boîtes et applique un décor d'un clic. Clic droit sur le nom d'une boîte pour la changer seule
-- Boutons du PC toujours en colonne à gauche. Mode clair retiré : tout est en sombre
+- **Pokédex manquants**, **Manquants du PC** et **Shiny manquants du PC** dans le bouton Partager : la liste des espèces qui te manquent, copiée et enregistrée dans un fichier. Simple liste par numéro, en normal ou en shiny.
+- Option **Légendaires dans les manquants** : inclure ou retirer légendaires, fabuleux et ultra-chimères de ces listes.
+- **Tri par IV** : nouveau choix dans « Ranger par », du meilleur total d'IV au plus faible (hyper-entraînement compris).
+- **Cases vides** : dans un PC rangé par Pokédex ou par région, une image pâle du Pokémon qui manque à cette place. Choix : Rien, Normal, Shiny ou Auto (suit la progression choisie en haut du PC).
+- **Boîtes Élevage sur « Aucune »** : la boîte Élevage vide ne reste plus après le tri.
 
-**Combat et Pokémon sauvages**
-- Icône PC (le vrai PC 3D du jeu) si tu n'as pas l'espèce dans ton PC, icône Pokédex si elle n'est pas capturée. Les deux s'affichent si c'est les deux
-- En combat : en colonne à droite de la tuile adverse. Hors combat : juste après le nom du Pokémon sauvage
-- Chaque icône se règle dans le hub (Équipe & combat)
+**/evolutiondoublon** (ou /evodoublon)
+- Te dit quels doublons faire évoluer pour obtenir les Pokémon qui te manquent, avec le niveau, l'objet ou la condition de chaque évolution.
+- `/evolutiondoublon shiny` : les shiny des boîtes « Doublons Shiny », pour les shiny qui te manquent.
+- `/evolutiondoublon normal` : les Pokémon des boîtes « Doublons », pour les espèces que tu n'as pas.
+- Boutons Shiny / Normal dans la fenêtre, et bouton Copier pour la liste.
 
-**Équipe personnalisée**
-- Pokémon animés (option)
-- Équipe en ligne ou en colonne, nom au-dessus / en dessous ou à gauche / à droite
-- Les Pokémon ajoutés par le serveur (ex. Lucareon) s'affichent maintenant
+**/checklist**
+- **Temps restant lu dans le chat** : quand le serveur te dit d'attendre, la check-list se corrige toute seule, même si le message ne nomme pas l'arène. Un message confirme la correction.
+- **Mode admin** : clique sur une case et règle toi-même son temps restant (Dispo, -1 h, -10 min, +10 min, +1 h, +1 j, Complète). Toutes les arènes y sont visibles.
 
-**HUD des Légendaires**
-- Nouveau format : titre, biome (défile s'il est long), chrono, puis la liste complète avec les %
-- La hauteur s'adapte au nombre de Pokémon
-
-**/checklist (nouveau)**
-- Kits (/kitall) et arènes du jour, avec le temps restant
-- Tout se coche tout seul : kit récupéré, arène gagnée
-- Seules les arènes de ton niveau s'affichent, les autres indiquent « débloquée au niveau X »
-- Message dans le chat quand une arène ou les kits sont à refaire (réglable dans le hub)
-- Tape une fois `/checklist niveau <ton niveau>` pour qu'il connaisse ton niveau dresseur
-
-**/stratall**
-- Fenêtre d'analyse de l'équipe : faiblesses, couverture, note sur 10
-- Conseils par Pokémon : objet, attaques, IV à monter (IV entraînés compris), EV et nature
-- Remplaçants proposés, dans ton PC ou à attraper, avec ce qu'il faut changer sur eux
-- Onglets **Smogon** et **Coup Critique** (sets en double, sinon en simple)
-
-**GTS**
-- En parcourant le /gts, le mod note les prix des annonces
-- `/gts sell item` et `/gts sell pokemon <n>` : bulle avec le prix médian. Tab écrit le prix
-- Au survol dans le GTS : prix médian et « bonne affaire / trop cher »
-- Ce sont les prix des annonces vues, pas des ventes conclues
-
-**Anti-relâcher**
-- Zone de détails sous le PC (types, nature, IV, objet)
-- 2e confirmation pour les légendaires, fabuleux, Ultra-Chimères, paradoxes, shiny et Pokémon à 4 IV parfaits ou plus
-
-**Installation**
-- Supprimez l'ancien fichier Outils
-- Un seul fichier à garder : Outils-PokeIsland-By-NopziTV-2.7.13.jar
+**GTS / info-bulles des Pokémon**
+- **Skin** affiché dans l'info-bulle (ou « de base »).
+- **Vrai nom de l'espèce** entre parenthèses à côté du nom, en rouge si le Pokémon a été renommé avec un autre nom. Ça évite les arnaques.
+- **Info-bulle compacte** : skin, prix et bonne affaire, vendeur et temps restant, type / nature / talent, IV en couleur avec le total, EV, attaques, Poké Ball / amitié / repro. **Maintiens Maj** pour voir la fiche complète du serveur.
