@@ -19,19 +19,27 @@
 - Option **Surnom** : affiche le surnom de tes Pokémon au lieu du nom de l'espèce.
 - **Noms trop longs** : ils passent sur 2 lignes au lieu d'être coupés.
 
-**/butin** (ou /butins)
-- Recherche de butins : tape un objet, le mod liste les Pokémon qui le lâchent, avec la quantité et la chance.
+**/checklist (nouvelle interface)**
+- **À faire** en étiquettes, **En recharge** en lignes avec le temps restant et une barre, de la plus proche à la plus lointaine.
+- **Clic sur une tâche = téléportation** : /warp de l'île (spawn, water, fire, plant, rock, ghost, frozen, mesa), /kitall pour les kits.
+- **Temps restant lu dans le chat** : quand le serveur te dit d'attendre, la check-list se corrige toute seule, même si le message ne nomme pas l'arène.
+- **Mode admin** : choisis une tâche et règle toi-même son temps restant (Dispo, -1 h, -10 min, +10 min, +1 h, +1 j, Complète). Toutes les arènes y sont visibles.
+- Corrigé : /warp plant (et les autres téléportations) ne faussent plus la check-list, meilleure détection de l'arène Plante.
+
+**/butin (nouvelle interface)**
+- Objets lâchés par les Pokémon : liste des objets avec recherche à gauche, détail à droite avec chaque Pokémon, sa barre de chance, le % et la quantité.
 - `/butin poudre de blaze` ouvre directement sur l'objet.
+
+**/stratall ou /analyse (nouvelle interface)**
+- Ton équipe en colonne à gauche (nom, niveau, types, image), vue d'équipe avec la note, la couverture offensive, les faiblesses partagées et un tableau des 18 types.
+- Fiche de chaque Pokémon en onglets : **Conseils** (objet, attaques, IV, EV, nature), **Smogon**, **Coup Critique** (double), **Remplaçants**.
+- Sets Smogon / Coup Critique dans une liste à gauche (molette pour défiler), fiche du set à droite.
 
 **/evolutiondoublon** (ou /evodoublon)
 - Te dit quels doublons faire évoluer pour obtenir les Pokémon qui te manquent, avec le niveau, l'objet ou la condition de chaque évolution.
 - `/evolutiondoublon shiny` : les shiny des boîtes « Doublons Shiny », pour les shiny qui te manquent.
 - `/evolutiondoublon normal` : les Pokémon des boîtes « Doublons », pour les espèces que tu n'as pas.
 - Boutons Shiny / Normal dans la fenêtre, et bouton Copier pour la liste.
-
-**/checklist**
-- **Temps restant lu dans le chat** : quand le serveur te dit d'attendre, la check-list se corrige toute seule, même si le message ne nomme pas l'arène. Un message confirme la correction.
-- **Mode admin** : clique sur une case et règle toi-même son temps restant (Dispo, -1 h, -10 min, +10 min, +1 h, +1 j, Complète). Toutes les arènes y sont visibles.
 
 **GTS / info-bulles des Pokémon**
 - **Skin** affiché dans l'info-bulle (ou « de base »).
